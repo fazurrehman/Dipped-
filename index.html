@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -42,15 +43,54 @@
             </div><!-- /.navbar-collapse -->
         </nav>
 
-        <div class="jumbotron-inner text-center">
-          <h1>We build well design websites</h1>
-          <h4>Duis aute irure dolor in reprehenderit in voluptate velit esse.</h4>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
-          <a href="#" role="button">Learn More</a>
-          <img src="img/browers.png" alt="" class="text-center">
-        </div><!-- end jumbotron -->
+        <div id="bannerCarousel" class="carouselBanner slide">
+          <div class="carousel-inner">
+
+            <div class="item active">
+              <div class="jumbotron-inner text-center">
+                <h1>We build well design websites</h1>
+                <h4>Duis aute irure dolor in reprehenderit in voluptate velit esse.</h4>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
+                <a href="#" role="button">Learn More</a>
+                <img src="img/browers.png" alt="" class="text-center">
+              </div><!-- end jumbotron -->
+            </div><!-- end item -->
+
+            <div class="item">
+              <div class="jumbotron-inner text-center">
+                <h1>We build well design websites</h1>
+                <h4>Duis aute irure dolor in reprehenderit in voluptate velit esse.</h4>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
+                <a href="#" role="button">Learn More</a>
+                <img src="img/browers.png" alt="" class="text-center">
+              </div><!-- end jumbotron -->
+            </div><!-- end item -->
+
+            <div class="item">
+              <div class="jumbotron-inner text-center">
+                <h1>We build well design websites</h1>
+                <h4>Duis aute irure dolor in reprehenderit in voluptate velit esse.</h4>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
+                <a href="#" role="button">Learn More</a>
+                <img src="img/browers.png" alt="" class="text-center">
+              </div><!-- end jumbotron -->
+            </div><!-- end item -->
+
+          </div><!-- end innercarousel -->
+          <!-- Controls -->
+          <a class="left carousel-control" href="#bannerCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#bannerCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div><!-- end bannercarousel -->
+
 
       </div>
+
     </div><!-- end jumbotron -->
 
     <!-- process -->
@@ -58,7 +98,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="h-line">&nbsp;</div>
+          <div class="h-line hidden-xs">&nbsp;</div>
           <div class="col-sm-3">
             <div class="plan text-center">
               <div class="process-icon iplan">&nbsp;</div>
@@ -70,7 +110,7 @@
           <!-- end col 3 -->
 
           <div class="col-sm-3">
-            <div class="plan text-center">
+            <div class="design text-center">
               <div class="process-icon idesign">&nbsp;</div>
               <h4 class="heading">Design</h4>
               <p>Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia dese mollit anim labo, dolorem laudantium, totam rem aperiam, eaque ipsa quae labo aperiam ab illo.</p>
@@ -80,7 +120,7 @@
           <!-- end col 3 -->
 
           <div class="col-sm-3">
-            <div class="plan text-center">
+            <div class="develop text-center">
               <div class="process-icon develop">&nbsp;</div>
               <h4 class="heading">Develop</h4>
               <p>Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia dese mollit anim labo, dolorem laudantium, totam rem aperiam, eaque ipsa quae labo aperiam ab illo.</p>
@@ -90,7 +130,7 @@
           <!-- end col 3 -->
 
           <div class="col-sm-3">
-            <div class="plan text-center">
+            <div class="lunch text-center">
               <div class="process-icon ilunch">&nbsp;</div>
               <h4 class="heading">Lunch</h4>
               <p>Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia dese mollit anim labo, dolorem laudantium, totam rem aperiam, eaque ipsa quae labo aperiam ab illo.</p>
@@ -109,32 +149,40 @@
         <div class="row">
 
           <div class="col-sm-3">
-            <h4 class="heading">Our Portfolio</h4>
-            <p>Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia dese mollit anim labo, dolorem laudantium, totam rem aperiam, eaque ipsa quae labo aperiam ab illo.</p>
-            <strong><a href="#">Our Portfolio</a></strong>
-          </div><!-- end col3 -->
-
-          <div class="col-sm-3">
-            <div class="text-center">
-              <img src="img/thumbnail/thumb-1.png" class="img-thumbnail" alt="">
-              <h5 class="title">Metal Art Gallery</h5>
-              <small class="catagory">Web Design</small>
+            <div class="p-item">
+              <h4 class="heading">Our Portfolio</h4>
+              <p>Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia dese mollit anim labo, dolorem laudantium, totam rem aperiam, eaque ipsa quae labo aperiam ab illo.</p>
+              <strong><a href="#">Our Portfolio</a></strong>
             </div>
           </div><!-- end col3 -->
 
           <div class="col-sm-3">
-            <div class="text-center">
-              <img src="img/thumbnail/thumb-2.png" class="img-thumbnail" alt="">
-              <h5 class="title">Sentinel</h5>
-              <small class="catagory">Web Design</small>
+            <div class="p-item">
+              <div class="text-center">
+                <img src="img/thumbnail/thumb-1.png" class="img-thumbnail" alt="">
+                <h5 class="title">Metal Art Gallery</h5>
+                <small class="catagory">Web Design</small>
+              </div>
             </div>
           </div><!-- end col3 -->
 
           <div class="col-sm-3">
-            <div class="text-center">
-              <img src="img/thumbnail/thumb-3.png" class="img-thumbnail" alt="">
-              <h5 class="title">Basic Art Collection</h5>
-              <small class="catagory">Logo Design</small>
+            <div class="p-item">
+              <div class="text-center">
+                <img src="img/thumbnail/thumb-2.png" class="img-thumbnail" alt="">
+                <h5 class="title">Sentinel</h5>
+                <small class="catagory">Web Design</small>
+              </div>
+            </div>
+          </div><!-- end col3 -->
+
+          <div class="col-sm-3">
+            <div class="p-item">
+              <div class="text-center">
+                <img src="img/thumbnail/thumb-3.png" class="img-thumbnail" alt="">
+                <h5 class="title">Basic Art Collection</h5>
+                <small class="catagory">Logo Design</small>
+              </div>
             </div>
           </div><!-- end col3 -->
 
@@ -270,8 +318,13 @@
     <!-- end footer -->
 
     <!-- jquery and addition pluggins -->
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function() {
+        $('.carousel-inner').carousel()
+      })
+    </script>
 
 
   </body>
