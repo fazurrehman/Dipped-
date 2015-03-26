@@ -377,6 +377,10 @@ footer{
     margin-bottom: 30px;
 }
 
+#social a{
+    margin-right: 5px;
+}
+
 .twitter{
     background: #569ccd;
 }
